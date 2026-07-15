@@ -210,28 +210,28 @@ console.log(searchStudent("James"));
 // ===============================
 
 
-function countdown(number) {
+// function countdown(number) {
 
 
-    if (number === 0) {
-        console.log("Starting Student Report...");
-        return;
-    }
+//     if (number === 0) {
+//         console.log("Starting Student Report...");
+//         return;
+//     }
 
 
-    console.log(number);
+//     console.log(number);
 
 
-    countdown(number - 1);
+//     countdown(number - 1);
 
 
-}
+// }
 
 
-console.log("\n===== COUNTDOWN =====");
+// console.log("\n===== COUNTDOWN =====");
 
 
-countdown(5);
+// countdown(5);
 
 
 // ===============================
@@ -239,30 +239,30 @@ countdown(5);
 // ===============================
 
 
-function checkResult(score) {
+// function checkResult(score) {
 
 
-    if (score >= 70) {
-        return "Excellent";
-    } else if (score >= 50) {
-        return "Passed";
-    } else {
-        return "Failed";
-    }
+//     if (score >= 70) {
+//         return "Excellent";
+//     } else if (score >= 50) {
+//         return "Passed";
+//     } else {
+//         return "Failed";
+//     }
 
 
-}
+// }
 
 
-console.log("\n===== STUDENT REPORT =====");
+// console.log("\n===== STUDENT REPORT =====");
 
 
-students.forEach((student, index) => {
+// students.forEach((student, index) => {
 
 
-    console.log(
-        `${index + 1}. ${student.name} - ${student.score} - ${checkResult(student.score)}`
-    );
+//     console.log(
+//         `${index + 1}. ${student.name} - ${student.score} - ${checkResult(student.score)}`
+//     );
 
 
-});
+// });
